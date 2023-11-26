@@ -1,0 +1,12 @@
+[package]
+name = "snake"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-graphics = "0.8.1"
+embedded-snake = { git = "https://github.com/gitcrtn/embedded-snake-rs" }
+lcd-1in44-hat = { git = "https://github.com/gitcrtn/lcd-1in44-hat-rs" }
+rand = "0.8.5"
